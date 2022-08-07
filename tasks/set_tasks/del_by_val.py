@@ -7,7 +7,7 @@ from typing import Any
 
 
 def del_by_value(collection: set, value: Any) -> set:
-    collection.remove(value)# TODO вставить код сюда
+    collection.remove(value)  # TODO вставить код сюда
     return collection
 
 

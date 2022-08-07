@@ -23,8 +23,8 @@ TEST_TEMPLATE = {
 
 
 def copy_dict(template: dict) -> dict:
-    template.copy()   # TODO вставить код сюда
-    template_copy = template
+    # TODO вставить код сюда
+    template_copy = template.copy()
     return template_copy
 
 
