@@ -16,9 +16,9 @@ user_list = [
 
 def list_length(collection: list) -> int:
     # TODO написать код ниже
-    result = None
+    result = len(collection)
     return result
 
 
 if __name__ == '__main__':
-    print(f"В компании работает {list_length(user_list)} человек")
+    print(f"В компании работает {list_length(user_list)} человекa")
